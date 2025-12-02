@@ -12,6 +12,8 @@ source ~/src/esp-idf/export.sh
 
 cd hello_world
 
+idf.py set-target esp32s3
+
 format.sh main/hello_world.c
 
 idf.py build
